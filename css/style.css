@@ -1,0 +1,326 @@
+header div{
+    margin: 0 auto;
+    display: flex;
+    height: 253px;
+    max-width: 1146px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+
+}
+header div h2{
+    color: #5863E3;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+header div h3{
+    color: #000;
+    font-size: 49px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 371px;
+}
+main .container{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1146px;
+    width: 100%;
+}
+#dsp{
+    resize: none;
+    padding: 23px 21px;
+    width: 756px;
+    height: 298px;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    margin-right: 20px;
+    margin-bottom: 51px;
+}
+#subject{
+    padding: 21px 19px;
+    width: 370px;
+    height: 59px;
+    flex-shrink: 0;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    margin-bottom: 20px;
+}
+#namesurname{
+    padding: 21px 19px;
+    width: 370px;
+    height: 59px;
+    flex-shrink: 0;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    margin-bottom: 20px;
+}
+#email{
+    padding: 21px 19px;
+    width: 370px;
+    height: 59px;
+    flex-shrink: 0;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    margin-bottom: 25px;
+}
+#submit{
+    padding: 22px 167px;
+    width: 370px;
+    height: 59px;
+    flex-shrink: 0;
+    background: #5968F4;
+    border: none;
+    color: #FBFBFF;
+    margin-bottom: 51px;
+}
+input [value=Send] {
+    color: #FBFBFF;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.input-box{
+    width: 370px;
+}
+.container1{
+    display: flex;
+    max-width: 997px;
+    width: 100%;
+    height: 231px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 71px;
+}
+.blue-box{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background: #5968F4;
+    margin-bottom: 16px;
+}
+
+.box{
+    height: 157px;
+    width: 226px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fa-envelope{
+    width: 41px;
+    height: 29px;
+    margin-top: 19px;
+    margin-left: 14px;
+    display: none;
+}
+.ml{
+    width: 41px;
+    height: 29px;
+    margin-top: 19px;
+    margin-left: 14px;
+}
+.box h4{
+    color: #4E4D54;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+.box a{
+    color: #99999A;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+.ph{
+    width: 51px;
+    height: 41px;
+    margin-top: 13px;
+    margin-left: 9px;
+}
+.loc{
+    width: 23px;
+    height: 38px;
+    margin-top: 18px;
+    margin-left: 22px;
+}
+.lastph-box{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1146px;
+    width: 100%;
+    height: 192px;
+    flex-direction: column;
+}
+.lastph-box h5{
+    color: #5863E3;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 7px;
+}
+.lastph-box h6{
+    color: #000;
+    font-size: 49px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 548px;
+}
+.img-box img{
+    width: 373px;
+    height: 373px;
+}
+.img-box{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1318px;
+    margin-bottom: 39px;
+    flex-wrap: wrap;
+}
+.blk-container{
+    max-width: 100%;
+    width: 100%;
+    height: 372px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+.zwtta-box{
+    width: 295px;
+    height: 206px;
+    margin-right: 191px;
+}
+.zwtta-box h1{
+    color: #FFF;
+    font-size: 26px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 23px;
+}
+.zwtta-box p{
+    color: #99999A;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 23px;
+}
+.ulpc{
+    display: flex;
+    width: 600px;
+    height: 160px;
+    justify-content: space-between;
+}
+.ul h2{
+    color: #FFF;
+    font-size: 21px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+.ul a{
+    color: #5863E3;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 9px;
+    width: 125px;
+    height: 19px;
+}
+.ul{
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+}
+.container2{
+    max-width:1121px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.p {
+    width: 92px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+.p h2{
+    color: #FFF;
+    font-size: 21px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+.p a{
+    color: #5863E3;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 9px;
+    width: 92px;
+    height: 19px;
+}
+.c{
+    width: 241px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.c h2{
+    color: #FFF;
+    font-size: 21px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 32px;
+    
+}
+.c div a{
+    color: #FFF;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 213px;
+    height: 19px;
+
+    
+}
+
+.c div img{
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+
