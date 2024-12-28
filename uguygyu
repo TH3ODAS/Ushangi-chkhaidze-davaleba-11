@@ -1,0 +1,39 @@
+import FOP.*;
+
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Interpreter interpreter = new Interpreter();
+
+        String program = """
+            a = 6
+            c = 11
+            b = c
+            n = 5
+            q = 3
+
+
+            sum = 0
+
+            for ucha in range(1, 4):
+               sum = sum + ucha
+
+
+            print(sum)
+
+
+
+
+            """;
+
+        //System.out.println(Arrays.toString(interpreter.evalTesting(program)));
+
+        //System.out.println();
+        interpreter.eval(program);
+
+
+
+    }
+}
